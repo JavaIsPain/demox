@@ -20,17 +20,29 @@ A democratized version of X(formerly known as Twitter) where there are no censor
 
 1. Signup/Login/Signout
 2. Profile management
-3. Follow/unfollow users
-4. Tweet/retweet/reply/like
-5. URL shortening
-5. Pin tweets (pin/unpin and view them)
-5. Edit/Delete tweets
-6. Hashtags
-7. Global search (users, tweets, hashtags)
-8. Timeline and feed (Home, following, explore)
-9. notifications (likes, follows, mentions)
-10. Direct messaging
-11. Media Uploads (tweets, replies and direct messaging)
+3. Real Name (1 by default)
+4. Pseudonym (1 by default) 
+5. Anonymous (1 by default)
+6. Follow/unfollow users
+7. Tweet/retweet/reply/like
+8. URL shortening
+9. Pin tweets (pin/unpin and view them)
+10. Edit/Delete tweets
+11. Hashtags
+12. Global search (users, tweets, hashtags)
+13. Timeline and feed (Home, following, explore)
+14. notifications (likes, follows, mentions)
+15. Direct messaging
+16. Media Uploads (tweets, replies and direct messaging)
+17. Organization (must have at least one person managing it) (must be paid) (must be verified)
+18. Brand (1 by default, more if paid for)
+
+
+### Developers
+
+1. API key management for authentication and tracking
+2. Bots management (1 by default, more if paid)
+3. API (1 by default, more if paid)
 
 ### Moderators
 
