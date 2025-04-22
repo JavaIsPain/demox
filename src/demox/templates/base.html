@@ -11,9 +11,15 @@
         <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
     </head>
     <body>
-        {% include "partials/header.html" %}
-        <main>
-            {% block content %}{% endblock %}
-        </main>
+        <div class="hidden mobile:block">
+            {% include "partials/header.html" %}
+            <main>
+                {% block content %}{% endblock %}
+            </main>
+        </div>
+        <p class="block mobile:hidden">
+            Sorry, your screen is too small.<br>
+            <small>How?</small>
+        </p>
     </body>
 </html>

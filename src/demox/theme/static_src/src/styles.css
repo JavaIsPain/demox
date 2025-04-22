@@ -1,5 +1,13 @@
 @import "tailwindcss";
 
+@theme {
+  --breakpoint-mobile: 300px;
+  --breakpoint-tablet: 600px;
+  --breakpoint-notebook: 900px;
+  --breakpoint-desktop: 1200px;
+  --breakpoint-tv: 1800px;
+}
+
 /**
   * A catch-all path to Django template files, JavaScript, and Python files
   * that contain Tailwind CSS classes and will be scanned by Tailwind to generate the final CSS file.
