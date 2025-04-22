@@ -6,6 +6,11 @@ A democratized version of X(formerly known as Twitter) where there are no censor
 
 [Coming soon]
 
+
+To run in dev mode:
+> python src/demox/manage.py tailwind start & python3 src/demox/manage.py runserver
+
+
 ## Tech Stack
 
 | Layer | Tools |

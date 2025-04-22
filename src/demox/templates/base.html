@@ -1,0 +1,19 @@
+{% load static tailwind_tags %}
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>{% block title %}demox{% endblock %}</title>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        {% tailwind_css %}
+        <!-- Dev only: -->
+        <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
+    </head>
+    <body>
+        {% include "partials/header.html" %}
+        <main>
+            {% block content %}{% endblock %}
+        </main>
+    </body>
+</html>
